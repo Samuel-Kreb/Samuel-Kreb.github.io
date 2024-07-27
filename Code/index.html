@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-AT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel-Kreb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="istockphoto.jpg" type="image/jpeg">
+</head>
+<body style="background-color: gray;">
+    <h1>Samuel-Kreb</h1>
+
+    <p style="text-align: center;"><strong>My name is Samuel Kreb. I am now 18 years old, work all the time and I am watching a lot of YT videos for getting some information about coding and how computers are working. <br> 
+      You know, all the little details ;) I am a visionary and I work about 16h a day-7 days a week; all the time. <br> And I am currently building/coding my own projects.</strong></p><br>
+    <div class="change-the-world-container">
+      <div class="Change-the-World">My goal is: To solve problems and change the world.</div>
+    </div>
+    <div class="Click-the-button-below">
+     <p >Click the button below to get access to W3SCHOOLS: My learning platform. <br> Or you can also go to ChatGPT, it gives you also many informations about everything.</p>
+    </div>
+
+    <div class="button-container">
+        <div>
+            <a href="https://www.w3schools.com/" target="_blank" title="Go to W3SCHOOLS">
+                <button class="button button1">W3SCHOOLS</button>
+            </a>
+        </div>
+        <div>
+            <a href="https://chatgpt.com/" target="_blank" title="Go to ChatGPT">
+                <button class="button button2">ChatGPT</button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <p style="text-align: right; margin-right: 180px;"><strong>Here is one of my favorite pictures I often use:</strong></p>
+    <img class="favorite-picture" src="Test.jpg" alt="Picture of Samuel Kreb" style="display: block; border-radius: 20px; float: right; margin-right: 155px; height: 200px;" type="image/jpeg" title="Der Zeitlose">
+
+    <div class="p-DoyoulikemyWebsite"> 
+        <p style="color: rgba(224, 52, 52, 0.788);">Do you like my Website?</p>   
+    </div>
+
+    <div class="button-container">
+        <button id="yesButton" class="like-button" onclick="setButtonActive('yesButton')">Yes</button>
+        <button id="noButton" class="like-button" onclick="setButtonActive('noButton')">No</button>
+    </div>
+    
+    <script>
+        function setButtonActive(buttonId) {
+            const buttons = document.querySelectorAll('.like-button');
+            buttons.forEach(button => {
+                if (button.id === buttonId) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

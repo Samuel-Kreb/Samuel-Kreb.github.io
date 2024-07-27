@@ -1,0 +1,144 @@
+CSS
+h1 {
+    text-align: center;
+    color: powderblue;
+    background-color: grey;
+    padding: 10px;
+    font-size: 50px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+}
+
+.button {
+    border: none;
+    color: #121212;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 2s;           
+    cursor: pointer;
+    border-radius: 50px;
+    width: 150px;
+    transition: transform 1s ease, background-color 1s ease;
+}
+
+.button:hover {
+    background-color: #bbff00;
+    color: #121212;
+    border: none;
+    transform: scale(1.2);
+}
+
+.button1 {
+    background-color: #04a96d;
+    color: #000080;
+}
+
+.button2 {
+    background-color: #bd198c;
+    color: #000080;
+    border: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.favorite-picture {
+    transition: transform 0.5s ease; 
+}
+
+.favorite-picture:hover {
+    transform: scale(1.1); 
+}
+
+.p-DoyoulikemyWebsite {
+    font-size: 25px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+}
+
+.change-the-world-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Change-the-World {
+    display:inline-block;
+    color: #000080;
+    text-align:center;
+    border:5px solid rgb(38, 159, 175); 
+    border-radius: 10px; 
+    text-transform: uppercase; 
+    font-size: 20px;
+    padding: 10px;
+    background-color: #9648dfd3;
+    color: rgb(21, 4, 117);
+    text-shadow: 
+        -1px -1px 0 #165824,  
+        1px -1px 0 #165824,
+        -1px 1px 0 #165824,
+        1px 1px 0 #165824;
+    outline: 2px solid rgb(2, 2, 2);
+}
+
+.Click-the-button-below {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -1px -1px 0 #000000e1,  
+        1px -1px 0 #000000e1,
+        -1px 1px 0 #000000e1,
+        1px 1px 0 #000000e1;
+}
+
+.like-button {
+    border: none;
+    color: #121212;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.like-button:hover {
+    background-color: #bbff00;
+    color: #121212;
+}
+
+.like-button.active {
+    background-color: #bbff00; 
+    color: #121212;
+    font-weight: bold; 
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .Change-the-World {
+        font-size: 16px;
+    }
+}
